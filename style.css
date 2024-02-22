@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+}
+
+@media (max-width: 720px) {
+  main{
+    display: inline;
+  }
+}
